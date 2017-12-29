@@ -844,11 +844,11 @@ namespace HpToolsLauncher.TestRunners
             }
 
             //validate that scenario has time limited schedule:
-            if (!scenario.DoesScenarioHaveLimitedSchedule(out errorReason))
-            {
+            //if (!scenario.DoesScenarioHaveLimitedSchedule(out errorReason))
+            //{
                 //error message in errorReason
-                return false;
-            }
+            //    return false;
+            //}
 
             //validate LGs:
             if (scenario.Hosts.Count == 0)
